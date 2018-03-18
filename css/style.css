@@ -1,0 +1,548 @@
+body{
+    margin: 0;
+}
+.ul .ui{
+  font-size: 50px;
+}
+
+
+.navigation {
+    background-color: Black;
+}
+.logo, .menu {
+    display: inline-block;
+}
+.menu ul {
+    list-style: none;
+    padding: left;
+    float: right;
+    margin: 0px;
+}
+
+.menu{
+    float:right;
+}
+
+.menu ul li{
+
+ display: inline-block;
+ margin: 15px;
+
+}
+.logo{
+    margin: 15px;
+    color: white;
+}
+
+.menu ul li a{
+    text-decoration: none;
+
+
+    padding: 20px 10px 20px 10px;
+    font-size: 20px;
+    outline: none;
+    color: white;
+}
+.menu ul li a:visited {
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color:blue;
+    color: white;
+    transition: all 0.5s ease
+}
+
+/*---------------HEADER--------------*/
+
+header {
+
+    background-image: url(../img/codeBackground.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 10px
+}
+    header p{
+    margin: 0px;
+}
+
+.hero-container {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.hero-container a{
+
+}
+.btn-contact, .btn-work {
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin: 10px;
+
+}
+
+.btn-work {
+
+    background-color: rgb(66,165,46);
+    color: white;
+
+
+
+
+}.btn-work:hover {
+background-color: white ;
+color: rgb(168,223,81);
+transition: all 0.5s ease;
+}
+
+.btn-contact{
+    background-color: rgb(250, 252, 248);
+    color: rgb(46, 141, 24);
+
+}
+.btn-contact:hover {
+    background-color: rgb(168,223, 81);
+    color: rgb(253, 253, 253);
+    transition: all 0.5s ease;
+}
+.hero-container p{
+    font-size: 30px;
+}
+.hero-container h1{
+    font-size: 40px;
+}
+/*---------------ABOUT ME SECTION--------------*/
+
+.about-me {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+
+}
+
+.about-me:after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.about-me h2{
+    color: #333;
+    text-align: center;
+    text-transform: Uppercase;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.about-me h2:after {
+        content: "";
+        position: absolute;
+        width: 88px;
+        height: 2px;
+        margin-left: -40px;
+        left: 50%;
+        bottom: 0px;
+        background-color: #3f413b;
+
+
+}
+
+.about-me .col-left, .about-me .col-right {
+ width: 45%;
+ float: left;
+
+}
+.about-me .col-left {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+    .about-me .col-left {
+        content: "";
+        display: block;
+        clear: both;
+}
+.about-me .col-left img {
+
+    max-width: 50%;
+    align-content: center !important;
+}
+.about-me a {
+    background-color:rgb(53, 187, 53);
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 17px;
+    border: 1px solid;
+}
+
+.about-me a:hover {
+    background-color: rgb(219, 224, 220);
+    color: rgb(60, 156, 30);
+}
+.col-right p{
+    font-size: 25px;
+    margin-right: 40px;
+}
+.col-left img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+.about-me h3{
+    font-size: 25px;
+}
+
+/*--------My Skills-----*/
+
+.my-skills {
+    background-color: rgb(174, 179, 199);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.my-skills h2 {
+    text-transform: uppercase;
+    position: relative;
+}
+.my-skills h2:after{
+    content:'';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: green;
+}
+
+.my-skills:after {
+content: '';
+display : block;
+clear: both;
+}
+
+.my-skills .skills-left, .skills-center, .skills-right {
+width: 29.3333333%;
+display: inline-block;
+float: left;
+padding-left: 2%;
+padding-right: 2%;
+}
+
+.my-skills i{
+    font-size: 60px;
+    color:  rgb(46, 141, 24);
+}
+.my-skills p{
+    font-size: 30px;
+}
+
+/**********MyProjects**********/
+
+.my-projects {
+    background-color: rgb(253, 253, 255);
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+
+
+
+.my-projects h2 {
+   text-transform: uppercase ;
+   padding-top: 50px;
+   padding-bottom: 0px;
+   margin-top: 0;
+   position: relative;
+
+}
+
+.my-projects h2:after{
+    content:'';
+    position: absolute;
+    width: 180px;
+    height: 2px;
+    margin-left: -90px;
+    left: 50%;
+    bottom: 0px;
+    background-color: green;
+}
+
+.my-projects{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.my-projects .project1,
+.my-projects .project2,
+.my-projects .project3 {
+    height: 300px;
+    width: 29.333333333%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.my-projects .project1{
+        margin-left: 2%;
+        margin-right: 2%;
+        background-image: url(../img/Restaurants.jpg);
+        background-size: cover;
+
+}
+
+.my-projects .project2{
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: url(../img/unnamed.jpg);
+    background-size: cover;
+}
+
+.my-projects .project3{
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: url(../img/Pace-blog_toolbox-socialmedia-883x432.jpg);
+    background-size: cover;
+}
+.my-projects .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    padding-top: 310px;
+}
+
+.my-projects .overlay:hover {
+
+    padding-top: 130px;
+    transition: all 0.5s ease;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.overlay a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.test-box {
+    padding: 50px;
+    height:310px;
+    width: 100%;
+    background-color: red;
+}
+.contacts {
+    padding-top: 100px;
+    position: relative;
+
+}
+.ProjectsList{
+  text-align: left;
+}
+
+/*---------------ContactsSection---------------*/
+.clear{
+    clear: both;
+}
+.entire-contact-section {
+    background-color: #e2e2e2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.entire-contact-section:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    width: 33.333333%;
+    display: inline-block;
+    float: left;
+
+}
+
+.social-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #e2e2e2
+}
+
+
+
+
+.social-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align:left;
+
+}
+
+
+
+
+
+ .contact-section:after{
+     content:'';
+     position: absolute;
+     width: 180px;
+     height: 2px;
+     margin-left: -90px;
+     left: 50%;
+     bottom: 0px;
+
+ }
+
+/*
+.social-container:after; {
+    content: '';
+    display: block;
+    clear: both;
+
+.contact-section {
+    padding-top: 50px;
+
+}*/
+
+
+
+/*
+
+}*/
+.entire-contact-section p{
+    font-size:20px;
+}
+
+
+
+
+.contact-me {
+    font-size:30px;
+     text-align: center;
+     /*text-decoration: underline;*/
+     margin: 20px;
+ }
+
+
+.contact-me {
+    text-align: center;
+    /*background-color: #e2e2e2;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*
+.contact-me h2 {
+    position:relative;
+}
+*/
+
+
+.text-bold {
+    color: #333;
+    font-weight: bold;
+}
+.social-container i {
+    margin-top: 30px;
+    float: left;
+    color:  rgb(46, 141, 24);
+}
+.social-container p {
+    margin-left: 20px;
+}
+
+.col-1 p,
+.col-2 p,
+.col-3 p {
+
+    display: inline-block;
+    width: 33.333333%;
+
+}
+.col-3 p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.col-3 {
+    margin-top: 20px;
+}
+.entire-contact-section {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.contact-section h2 {
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-top: 0;
+    position: relative;
+
+ }
+
+ /*---------------FooterSection---------------*/
+ .site-footer {
+     background-color: #7c7b7b;
+    color: rgb(43, 42, 42);
+    padding: 10px 40px;
+    }
+
+footer:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer-text {
+    float: left;
+}
+
+.footer-text i{
+    color: red
+
+}
+.social i{
+    font-size: 30px;
+    margin-right: 15px;
+    padding: 4px;
+}
+
+.social a:visited{
+    color: rgb(43, 42, 42);
+}
+.social i:hover{
+    color: white;
+    background-color: rgb(43, 42, 42);
+    transition: all 0.5s ease;
+
+}
+.social {
+    float: right;
+    margin-top: 20px;
+}
+
+.footer-text p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
